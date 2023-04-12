@@ -1,0 +1,144 @@
+@font-face {
+    font-family: myFont;
+    src: url(Trajan\ Pro\ Regular.ttf);
+}
+
+body {
+    font-family: myfont;
+    background-color: #121212;
+    color:whitesmoke;
+}
+
+#logo {
+    padding-left: 30px;
+}
+
+.headbuttons {
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 350px;
+    background-color: #0b0b0b;
+}
+
+.chances {
+    background-image: url(images/david-tip-ac0LMgPsFJ4-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chances h1 {
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.chances h2 {
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+.chances button {
+    padding: 10px;
+    font-size: 2rem;
+    transition: ease-out 0.9s;
+}
+
+.impact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.impactboxes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 100px;
+    text-align: center;
+}
+
+.meals, .shelter, .clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:200px;
+}
+
+.box{
+    /* border: solid 1px black; */
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 8px #0b0b0b;
+}
+
+.impactboxes > div{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#food, #shelter, #housed {
+    border-radius: 30px;
+}
+
+button {
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: inset 300px 0 0 0 rgb(174, 236, 146);
+    color: white;
+}
+
+.impact {
+    padding-top: 60px;
+}
+
+.impact h2 {
+    padding-bottom: 60px;
+}
+
+.meals:hover {
+    transform: scale(1.1);
+}
+
+.shelter:hover {
+    transform: scale(1.1);
+}
+
+.clients:hover {
+    transform: scale(1.1);
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-inline: 40px;
+    background-color: #0b0b0b;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#givingfood {
+    border-radius: 20px;
+}
+
+.form h1 {
+    padding-bottom: 30px;
+}
+
+#message {
+    padding-bottom: 30px;
+}
+

@@ -1,3 +1,3 @@
 # IMD2900_A2
-website redesign
+website design
 SUPER COOL!!!!

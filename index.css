@@ -138,6 +138,10 @@ button:hover {
     padding-bottom: 15px;
 }
 
+#life {
+    padding-bottom: 50px;
+}
+
 .meals:hover {
     transform: scale(1.1);
 }

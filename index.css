@@ -42,7 +42,7 @@ body {
 }
 
 .chances {
-    background-image: url(images/david-tip-ac0LMgPsFJ4-unsplash.jpg);
+    background-image: url(images/wp5204110.jpg);
     background-repeat:no-repeat;
     background-size:100%;
     padding: 100px;
@@ -50,11 +50,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-position: bottom;
 }
 
-.chances h1 {
+/* .chances h1 {
     -webkit-text-stroke: 1px rgb(1, 1, 1);
-}
+} */
 
 .chances h2 {
     text-decoration: underline;
@@ -230,4 +231,8 @@ button:hover {
     cursor: pointer;
     color: white;
     font-size: 1rem;
+}
+
+.titlebackground {
+    background-color: #0b0b0b;
 }

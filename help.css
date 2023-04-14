@@ -136,6 +136,7 @@ h4 {
     height: 12em;
     width: 12em;
     border-radius: 50%;
+    margin-bottom: 5%;
     background-size: cover;
     object-fit: fill;
 }
@@ -153,16 +154,16 @@ h4 {
 }
 
 .column {
-    width: 20%;
-    height: 30em;
+    width: 30%;
+    height: auto;
     background-color: #343434;
     margin-left: 1em;
     margin-right: 1em;
     margin-top: 1em;
     padding-left: 3%;
     padding-right: 3%;
-    padding-top: 1%;
-    padding-bottom: 10%;
+    padding-top: 3%;
+    padding-bottom: 2%;
     text-align: center;
     justify-content: center;
 }
@@ -276,6 +277,7 @@ input {
     width: 400px;
     height: 400px;
     background-color: #343434;
+    padding-top: 3%;
     margin: 2%;
     text-align: center;
 }

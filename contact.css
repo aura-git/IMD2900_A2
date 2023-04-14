@@ -175,3 +175,53 @@ input {
     background-color: #f3ba35;
     color: #1d1d1d;
 }
+
+.footlogo {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.socialsfoot {
+    cursor: pointer;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;  
+}
+
+.learn {
+    display: flex;
+    flex-direction: column;
+}
+
+.touch {
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.foot h1 {
+    color: rgb(10, 96, 193);
+}
+
+.foot h2 {
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}

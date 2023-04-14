@@ -9,11 +9,113 @@
     <link rel="icon" href="" type="image/svg+xml" />
   </head>
   <body>
+  <!-- Navigation bar -->
     <header>
-
+      <img id="logo" src="images/mission_logo_white.png" img width="150">
+      <div class="headbuttons">
+        <button>Get Help</button>
+        <button>About</button>
+        <button>Our Work</button>
+        <button>News</button>
+        <button>Get Involved</button>
+      </div>
     </header>
+    <!------------------>
+    <!-- Main -->
     <main>
-  
+
+      <div class="ourstory">
+        <h1>Our Story</h1>
+        <h2>Since our inception, we've evolved beyond emergency support to provide all the tools</h2>
+        <h2>people need to rebuild their lives, expending compassion to all who enter our doors.</h3>
+      </div>
+
+      <!-- image slider -->
+      <div class ="slideshow-container">
+        <div class ="containerslides fade">
+            <img src="images/storyottawamission.jpg" style ="width:100%">
+            <div class="title">The Beginning</div>
+            <div class="text">In 1906, a public meeting was held to discuss opening a shelter for homless men camped along the Ottawa River. Work began and The Mission officially opened on George Street in January 1907.</div>
+        </div>
+
+        <div class ="containerslides fade">
+            <img src="images/storyottawamission.jpg" style ="width:100%">
+            <div class="title">The Great Test</div>
+            <div class="text">During the Great Depression, there was an unprecedented surge in men seeking meals and shelter. The Mission rallied community support to expand an meet the need for "soap, soup and salvation"</div>
+        </div>
+
+        <div class ="containerslides fade">
+            <img src="images/storyottawamission.jpg" style ="width:100%">
+            <div class="title">The Rise of Addiction</div>
+            <div class="text">Through 1960 to 1980, addiction to illicit drugs became more common. Shelter guests began to include younger men.</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("containerslides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            }
+</script>
+
+      <div class="impact">
+        <h1>Our Leadership</h1>
+        <div class="impactboxes">
+          <div class="peter box">
+            <img id="peter" src="images/peter-1.jpg">
+            <h1>Peter Tilley</h1>
+            <h2>Chief Officer</h2>
+            <button>Contact</button>
+          </div>
+          <div class="brian box">
+            <img id="brian" src="images/brian-2.jpg">
+            <h1>Brian Cob</h1>
+            <h2>Officer, CPA</h2>
+            <button>Contact</button>
+          </div>
+          <div class="nam box">
+            <img id="namrata" src="images/Nam-Goyes.png">
+            <h1>Nam Goyes</h1>
+            <h2>Director</h2>
+            <button>Contact</button>
+          </div>
+        </div>
+      </div>
+
     </main>
+    <footer>
+    </footer>
   </body>
+  
 </html>

@@ -1,0 +1,228 @@
+@font-face {
+    font-family: myFont;
+    src: url(Trajan\ Pro\ Regular.ttf);
+}
+
+body {
+    font-family: myfont;
+    background-color: #121212;
+    color:whitesmoke;
+}
+
+#logo {
+    padding-left: 30px;
+}
+
+.headbuttons {
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 350px;
+    background-color: #0b0b0b;
+}
+
+.chances {
+    background-image: url(images/david-tip-ac0LMgPsFJ4-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chances h1 {
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.chances h2 {
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+
+.chances button {
+    padding: 10px;
+    font-size: 2rem;
+    transition: ease-out 0.9s;
+}
+
+.ourstory {
+    background-image: url(images/storyottawamission.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ourstory h1{
+    padding-bottom: 25px;
+}
+.impact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.impactboxes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 100px;
+    text-align: center;
+}
+
+.peter, .brian, .nam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:260px;
+}
+
+.box{
+    /* border: solid 1px black; */
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 8px #0b0b0b;
+}
+
+.impactboxes > div{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#food, #shelter, #housed {
+    border-radius: 30px;
+}
+
+button {
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: inset 300px 0 0 0 rgb(174, 236, 146);
+    color: white;
+}
+
+.impact {
+    padding-top: 100px;
+}
+
+.impact h1 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.impact h2 {
+    padding-top: 2px;
+    padding-bottom: 11px;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-inline: 40px;
+    background-color: #0b0b0b;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#givingfood {
+    border-radius: 20px;
+}
+
+.form h1 {
+    padding-bottom: 30px;
+}
+
+#message {
+    padding-bottom: 30px;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container{
+    max-width: 1000px;
+    position relative;
+    margin: auto;
+}
+
+.containerslides{
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: static;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next{
+    right: 0px;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.title{
+    color: #f2f2f2;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    position: static;
+    width: 100%;
+    text-align: center;
+}
+.text{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: static;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #403f3f;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration:1.5s;
+}
+
+@keyframes fade{
+    from{opacity: .4}
+    to {opacity: 1}
+}

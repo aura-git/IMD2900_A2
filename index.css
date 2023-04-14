@@ -35,6 +35,22 @@ body {
     background-color: #0b0b0b;
 }
 
+.nav {
+    font-weight: 900;
+    font-size: 1em;
+    color: #efefef;
+    background-color: #0b0b0b;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav:hover {
+    background-color: rgb(10, 96, 193);
+}
+
 .chances {
     background-image: url(images/david-tip-ac0LMgPsFJ4-unsplash.jpg);
     background-repeat:no-repeat;
@@ -103,7 +119,7 @@ body {
     border-radius: 30px;
 }
 
-button {
+/* button {
     border-radius: 3px;
     cursor: pointer;
 }
@@ -111,7 +127,7 @@ button {
 button:hover {
     box-shadow: inset 300px 0 0 0 rgb(174, 236, 146);
     color: white;
-}
+} */
 
 .impact {
     padding-top: 60px;

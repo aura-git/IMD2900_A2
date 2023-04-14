@@ -9,13 +9,6 @@ body {
     color:whitesmoke;
 }
 
-/* .headbuttons {
-    display: flex;
-    justify-content: space-around;
-    padding-inline: 350px;
-    background-color: #0b0b0b;
-} */
-
 #logo {
     padding-left: 20px;
 }
@@ -47,10 +40,6 @@ body {
     padding-left: 20px;
     padding-right: 20px;
 }
-
-/* .nav:hover {
-    background-color: rgb(10, 96, 193);
-} */
 
 .chances {
     background-image: url(images/david-tip-ac0LMgPsFJ4-unsplash.jpg);

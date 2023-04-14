@@ -16,6 +16,10 @@ body {
     color:whitesmoke;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 #logo {
     padding-left: 20px;
 }

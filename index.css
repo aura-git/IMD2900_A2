@@ -31,6 +31,7 @@ body {
 .headbuttons {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding-inline: 200px;
     background-color: #0b0b0b;
 }
@@ -47,9 +48,9 @@ body {
     padding-right: 20px;
 }
 
-.nav:hover {
+/* .nav:hover {
     background-color: rgb(10, 96, 193);
-}
+} */
 
 .chances {
     background-image: url(images/david-tip-ac0LMgPsFJ4-unsplash.jpg);
@@ -63,7 +64,7 @@ body {
 }
 
 .chances h1 {
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(1, 1, 1);
 }
 
 .chances h2 {
@@ -119,15 +120,15 @@ body {
     border-radius: 30px;
 }
 
-/* button {
+button {
     border-radius: 3px;
     cursor: pointer;
 }
 
 button:hover {
-    box-shadow: inset 300px 0 0 0 rgb(174, 236, 146);
+    box-shadow: inset 300px 0 0 0 rgb(10, 96, 193);
     color: white;
-} */
+}
 
 .impact {
     padding-top: 60px;

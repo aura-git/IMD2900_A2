@@ -246,3 +246,7 @@ button:hover {
     from{opacity: .4}
     to {opacity: 1}
 }
+
+.people {
+    border-radius: 20px;
+}

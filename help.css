@@ -4,8 +4,12 @@
 }
 
 @media screen and (max-width: 600px) {
-    .column {
+    .col {
         width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
     }
 }
 
@@ -131,7 +135,7 @@ h4 {
     padding-right: 10%;
 }
 
-.columnimage {
+.colimage {
     margin: auto;
     height: 12em;
     width: 12em;
@@ -153,8 +157,8 @@ h4 {
     background-image: url("images/clothing-program.jpeg"); 
 }
 
-.column {
-    width: 30%;
+.col {
+    width: auto;
     height: auto;
     background-color: #343434;
     margin-left: 1em;
@@ -362,54 +366,4 @@ input {
 
 #shelterimg {
     background-image: url(images/shelter-service.png);
-}
-
-.footlogo {
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 80px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.socialsfoot {
-    cursor: pointer;
-}
-
-.foot {
-    display: flex;
-    justify-content: space-around;
-}
-
-.about {
-    display: flex;
-    flex-direction: column;  
-}
-
-.learn {
-    display: flex;
-    flex-direction: column;
-}
-
-.touch {
-    display: flex;
-    flex-direction: column;
-}
-
-.copyright {
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.foot h1 {
-    color: rgb(10, 96, 193);
-}
-
-.foot h2 {
-    text-decoration: underline;
-    cursor: pointer;
-    color: white;
-    font-size: 1rem;
 }

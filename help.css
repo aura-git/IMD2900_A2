@@ -281,3 +281,66 @@ input {
     box-shadow: 5px 5px black;
     text-shadow: #343434 2px 2px;
 }
+
+.panelimg {
+    margin: auto;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    background-size: cover;
+    object-fit: fill;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#hopeimg{
+    background-image: url(images/Day-Hope-Program.jpeg);
+}
+
+#stabilimg {
+    background-image: url(images/sky.jpeg);
+    background-position: 50%;
+}
+
+#lifeimg {
+    background-image: url(images/mission-door.jpeg);
+}
+
+#secondimg {
+    background-image: url(images/housing-support.jpeg);
+    background-position: 66%;
+}
+
+#chaplainimg {
+    background-image: url(images/Chaplaincy-img.jpeg);
+}
+
+#clientimg {
+    background-image: url(images/client-service.jpeg);
+}
+
+#discoveryimg {
+    background-image: url(images/discovery-university.jpeg);
+    background-position: 30%;
+}
+
+#fstpimg {
+    background-image: url(images/fstp-training.jpeg);
+}
+
+#healthimg {
+    background-image: url(images/health_clinic.jpeg);
+}
+
+#housingimg {
+    background-image: url(images/housing-shelter.jpeg);
+}
+
+#mealservimg{
+    background-image: url(images/mission-meal-service.jpeg);
+}
+
+#shelterimg {
+    background-image: url(images/shelter-service.png);
+}
+

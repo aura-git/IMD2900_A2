@@ -195,7 +195,9 @@ li {
 p {
     font-size: 1.05em;
 }
-
+a{
+    margin-bottom: 7%;
+}
 .image {
     height: auto; 
     width: 600px; 

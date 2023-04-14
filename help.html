@@ -1,19 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Group Project</title>
+<head>
+    <title>Get Help Page</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="help.css" />
-    <link rel="icon" href="" type="image/svg+xml" />
-  </head>
-  <body>
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
+    <link rel="stylesheet" href="help_style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400;0,800;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
     <header>
-
+        <div class="navbar">
+            <img id="logo" src="images/mission_logo_white.png" img width="150">
+            <div class="headbuttons">
+                <button class="nav">Get Help</button>
+                <button class="nav">About</button>
+                <button class="nav">Our Work</button>
+                <button class="nav">News</button>
+                <button class="nav">Get Involved</button>
+            </div>
+        </div>
     </header>
     <main>
-  
+        <div class="banner">
+            <div class="bannerimg"></div>
+            <div class="bannertext">
+                <h1>Get Help</h1>
+                <p>The Ottawa Mission's programs are available to all 
+                members of our community who are in need.
+                <br><br>
+                If you're in need of food, shelter, or clothing,
+                The Ottawa Mission is here to help. Our emergency
+                services are open 24/7, 365 days a year. Give us
+                a call or stop by The Mission to access immediate support.</p>
+                <h3>35 Waller Street <br>
+                Ottawa, ON K1N 7G4</h3>
+                <h3>CALL: (613) 234-1144 </h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <div id="mealimg" class="columnimage"></div>
+                <h2>Dining Room Meals</h2>
+                <h3>(available to all)</h3>
+                <ul>
+                    <li>Breakfast – 8:00 am</li><br>
+                    <li>Lunch – 11:20 am</li><br>
+                    <li>Dinner – 3:00 pm</li><br>
+                </ul>
+            </div>
+            <div class="column">
+                <div id="mobileimg" class="columnimage"></div>
+                <h2>Mobile Mission Meals</h2>
+                <p>The Mobile Mission Meals food truck 
+                    serves 34 locations in Ottawa.</p><br>
+                <button class="schedule">Food Truck Schedule</button>
+            </div>
+            <div class="column">
+                <div id="clothingimg" class="columnimage"></div>
+                <h2>Clothing Room Now Open</h2>
+                <h4>Location:</h4> 
+                <p>Around the back of 55 Daly</p>
+                <h4>Days & Times:</h4> 
+                <p>Tuesdays 7:45 pm to 8:30 pm 
+                    <br> Sundays 9:30 am to 10:15 am</p>
+            </div>   
+        </div>
+
+        <div class="helpform">
+            <div class="helpformtext">
+                <h2>We're Here to Help</h2>
+                <p>If you're looking to make a change, we can help. The Mission
+                    offers housing and employment support as well as education and job 
+                    training programs. We also provide health care, dental, addiction
+                    treatment and other essential services. To learn more, contact us today.
+                    <br><br>
+                    Fill out the form below and our outreach team will connect with you.
+                    You can also call our main reception at (613) 234-1144.
+                    <br><br>
+                    Please note, this form is not monitored 24/7. If this is an emergency or
+                    someone is in danger, please call 9-1-1.
+                    <br><br>
+                    If you have a question about volunteering or donating, visit Contact Us.
+                </p>
+            </div>
+
+            <form>
+                <div><input type="text" placeholder="Full Name" size="40"></div>
+                <div><input type="text" placeholder="E-mail" size="40"></div>
+                <div><input type="text" placeholder="Phone" size="40"></div>
+            </form>
+
+            <form>
+                <div id="message"><input type="text" placeholder="Message" size="50" class="form4"></div>
+                <button class="formsubmit">Submit</button>
+            </form>
+        </div>
+
+        <div class="services">
+            <h2>Browse Our Services</h2>
+            <h3>Addiction and Trauma Services (ATS)</h3>
+            <p>The journey to wellness comes through drop-in harm reduction and
+            live-in treatment, gradually moving towards abstinence and independence.
+            Treatment is tailored to each person's needs. Download the PDF to learn more.
+            </p>
+            <button class="pdflarge">Download PDF</button>
+            <div class="servpanels">
+                <div id="hope" class="panel">
+                    <h4>ATS: Hope Program</h4>
+                    <button class="pdfsmall">Download PDF</button>
+                </div>
+                <div id="stabil" class="panel">
+                    <h4>ATS: Stabilization</h4>
+                    <button class="pdfsmall">Download PDF</button>
+                </div>
+                <div id="life" class="panel">
+                    <h4>ATS: LifeHouse</h4>
+                    <button class="pdfsmall">Download PDF</button>
+                </div>
+                <div id="second" class="panel">
+                    <h4>ATS: Second Stage</h4>
+                    <button class="pdfsmall">Download PDF</button>
+                </div>
+            </div>
+
+            <h3>Other Services</h3>
+            <div class="servpanels">
+                <div id="chap" class="panel">
+                    <h4>Chaplaincy</h4>
+                    <button class="pdfsmall">Download PDF</button>
+                </div>
+                <div id="client" class="panel">
+                    <h4>Client Services</h4>
+                    <button class="pdfsmall">Download PDF</button>
+                </div>
+                <div id="discovery" class="panel">
+                    <h4>Discovery University</h4>
+                    <button class="pdfsmall">Download PDF</button>
+                </div>
+                <div id="fstp" class="panel">
+                    <h4>Food Services Training Program</h4>
+                    <button class="pdfsmall">Download PDF</button>
+                </div>
+            </div>
+
+            <div class="servpanels">
+                <div id="health" class="panel">
+                    <h4>Health Services</h4>
+                    <button class="pdfsmall">Download PDF</button>
+                </div>
+                <div id="housing" class="panel">
+                    <h4>Housing Services</h4>
+                    <button class="pdfsmall">Download PDF</button>
+                </div>
+                <div id="mealserv" class="panel">
+                    <h4>Meal Services</h4>
+                    <button class="pdfsmall">Download PDF</button>
+                </div>
+                <div id="shelter" class="panel">
+                    <h4>Shelter Services</h4>
+                    <button class="pdfsmall">Download PDF</button>
+            </div>           
+        </div>
     </main>
-  </body>
+    <footer>
+    </footer>
+</body>
 </html>

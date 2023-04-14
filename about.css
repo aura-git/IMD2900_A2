@@ -79,6 +79,7 @@ body {
 .ourstory h1{
     padding-bottom: 25px;
 }
+
 .impact {
     display: flex;
     flex-direction: column;
@@ -109,11 +110,11 @@ body {
 .impactboxes > div{
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-#food, #shelter, #housed {
+#peter, #brian, #namrata {
     border-radius: 30px;
 }
 
@@ -128,45 +129,22 @@ button:hover {
 }
 
 .impact {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .impact h1 {
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
+
 .impact h2 {
-    padding-top: 2px;
-    padding-bottom: 11px;
+    padding-bottom: 15px;
 }
 
-.signup {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 60px;
+#leader {
     padding-bottom: 60px;
-    padding-inline: 40px;
-    background-color: #0b0b0b;
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#givingfood {
-    border-radius: 20px;
-}
-
-.form h1 {
-    padding-bottom: 30px;
-}
-
-#message {
-    padding-bottom: 30px;
-}
 
 * {box-sizing:border-box}
 

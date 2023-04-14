@@ -1,6 +1,6 @@
 @font-face {
     font-family: myFont;
-    src: url(Trajan\ Pro\ Regular.ttf);
+    src: url(Schibsted_Grotesk/SchibstedGrotesk-VariableFont_wght.ttf);
 }
 
 body {
@@ -9,14 +9,29 @@ body {
     color:whitesmoke;
 }
 
+/* .headbuttons {
+    display: flex;
+    justify-content: space-around;
+    padding-inline: 350px;
+    background-color: #0b0b0b;
+} */
+
 #logo {
-    padding-left: 30px;
+    padding-left: 20px;
+}
+
+.navbar {
+    display: flex;
+    padding-inline: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #0b0b0b;
 }
 
 .headbuttons {
     display: flex;
     justify-content: space-around;
-    padding-inline: 350px;
+    padding-inline: 200px;
     background-color: #0b0b0b;
 }
 
@@ -60,6 +75,10 @@ body {
     text-align: center;
 }
 
+.impactboxes h1 {
+    padding-top: 30px;
+}
+
 .meals, .shelter, .clients{
     display: flex;
     flex-direction: column;
@@ -99,7 +118,7 @@ button:hover {
 }
 
 .impact h2 {
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 
 .meals:hover {

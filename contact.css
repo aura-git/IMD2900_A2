@@ -3,12 +3,6 @@
     src: url(Schibsted_Grotesk/SchibstedGrotesk-VariableFont_wght.ttf);
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
-
 body {
     margin: 0;
     font-family: myFont;
@@ -51,10 +45,28 @@ body {
 
 .headbuttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding-inline: 200px;
     background-color: #0b0b0b;
+}
+
+.donate {
+    font-weight: 800;
+    font-size: 1.25em;
+    color: #efefef;
+    background-color: rgb(10, 96, 193);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.donatebox{
+    margin-top: 1%;
 }
 
 button {
@@ -160,7 +172,7 @@ input {
 .map {
     height: auto; 
     width: 600px; 
-    background-image: url(images/ottawa_mission.jpeg);
+    background-image: url(images/map.jpg);
     object-fit: fill;
     background-size: cover;
     background-position: 30%;

@@ -3,12 +3,6 @@
     src: url(Schibsted_Grotesk/SchibstedGrotesk-VariableFont_wght.ttf);
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
-
 body {
     margin: 0;
     font-family: myFont;

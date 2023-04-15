@@ -290,3 +290,7 @@ button:hover {
 .foot h2:hover {
     color:#0277C0;
 }
+
+footer {
+    background-color: #0b0b0b;
+}

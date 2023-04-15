@@ -6,7 +6,7 @@
 body {
     margin: 0;
     font-family: myFont;
-    background-color: #1d1d1d;
+    background-color:#121212;
     color: whitesmoke; 
 }
 
@@ -85,7 +85,7 @@ form {
 .form {
     height: auto;
     width: 30%;
-    background-color: #343434;
+    background-color: #232323;
     padding-top: 3%;
     padding-bottom: 5%;
     padding-left: 3%;
@@ -298,4 +298,8 @@ b{
 
 .foot h2:hover {
     color: #0277C0;
+}
+
+footer {
+    background-color: #0b0b0b;
 }

@@ -6,7 +6,7 @@
 body {
     margin: 0;
     font-family: myFont;
-    background-color: #1d1d1d;
+    background-color: #121212;
     color:whitesmoke;
     
 }
@@ -242,4 +242,8 @@ input {
 
 .foot h2:hover {
     color: #0277C0;
+}
+
+footer {
+    background-color: #0b0b0b;
 }

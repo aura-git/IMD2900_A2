@@ -23,7 +23,7 @@ body {
 
 .headbuttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding-inline: 200px;
     background-color: #0b0b0b;

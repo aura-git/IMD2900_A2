@@ -13,7 +13,7 @@ body {
     margin: 0;
     font-family: myFont;
     background-color: #1d1d1d;
-    color:whitesmoke; 
+    color: whitesmoke; 
 }
 
 #logo {
@@ -30,10 +30,11 @@ body {
 
 .headbuttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding-inline: 200px;
     background-color: #0b0b0b;
+    margin: auto;
 }
 
 .nav {
@@ -46,6 +47,24 @@ body {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.donate {
+    font-weight: 800;
+    font-size: 1.25em;
+    color: #efefef;
+    background-color: rgb(10, 96, 193);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.donatebox{
+    margin-top: 1%;
 }
 
 .content {

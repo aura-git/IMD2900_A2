@@ -27,6 +27,7 @@ body {
     align-items: center;
     padding-inline: 300px;
     background-color: #0b0b0b;
+    margin: auto;
 }
 
 .nav {

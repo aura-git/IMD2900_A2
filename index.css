@@ -42,6 +42,10 @@ body {
     padding-right: 20px;
 }
 
+.nav:hover {
+    background-color: #0277C0;
+}
+
 .chances {
     background-image: url(images/wp5204110.jpg);
     background-repeat:no-repeat;
@@ -120,7 +124,7 @@ body {
     font-weight: 800;
     font-size: 1.25em;
     color: #efefef;
-    background-color: rgb(10, 96, 193);
+    background-color: #0277C0;
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -138,7 +142,7 @@ button {
     font-weight: 800;
     font-size: 1.25em;
     color: #efefef;
-    background-color: rgb(10, 96, 193);
+    background-color: #0277C0;
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -247,7 +251,7 @@ button:hover {
 }
 
 .foot h1 {
-    color: rgb(10, 96, 193);
+    color: #0277C0;
 }
 
 .foot h2 {
@@ -255,6 +259,10 @@ button:hover {
     cursor: pointer;
     color: white;
     font-size: 1rem;
+}
+
+.foot h2:hover {
+    color: #0277C0;
 }
 
 .titlebackground {

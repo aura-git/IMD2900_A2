@@ -23,7 +23,7 @@ body {
 
 .headbuttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding-inline: 200px;
     background-color: #0b0b0b;
@@ -39,32 +39,6 @@ body {
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-.chances {
-    background-image: url(images/david-tip-ac0LMgPsFJ4-unsplash.jpg);
-    background-repeat:no-repeat;
-    background-size:100%;
-    padding: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.chances h1 {
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
-}
-
-.chances h2 {
-    text-decoration: underline;
-    padding-bottom: 30px;
-}
-
-.chances button {
-    padding: 10px;
-    font-size: 2rem;
-    transition: ease-out 0.9s;
 }
 
 .ourstory {
@@ -101,7 +75,25 @@ body {
     width:260px;
 }
 
-.box{
+.donate {
+    font-weight: 800;
+    font-size: 1.25em;
+    color: #efefef;
+    background-color: rgb(10, 96, 193);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.donatebox{
+    margin-top: 1%;
+}
+
+.box {
     /* border: solid 1px black; */
     border-radius: 30px;
     box-shadow: 0px 0px 8px 8px #0b0b0b;
